@@ -1,13 +1,13 @@
 +++
 # About/Biography widget.
 
-date = "2016-04-20T00:00:00"
+date = "2017-06-28T18:00:00"
 draft = false
 
-widget = "about"
+#widget = "about"
 
 # Order that this section will appear in.
-weight = 1
+weight = 2
 
 # List your academic interests.
 [interests]
@@ -35,8 +35,12 @@ weight = 1
  
 +++
 
-# Biography
+# Hi!
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is René Schmidt and I write code (mainly C++).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I work for [Bigpoint](http://www.bigpoint.com) in Berlin on [Drakensang Online](http://www.drakensang.com) as a Senior Developer and I focus on gameplay programming, especially combat and AI stuff, in a client-server-environment.
+
+Before that I contributed code to several released and unreleased [PC, Wii and DS projects](http://www.mobygames.com/developer/sheet/view/developerId,241905/) at [Radon Labs](http://en.wikipedia.org/wiki/Radon_Labs).
+
+The main purpose of this site is to be an archive for personal projects. Astonishingly several project releases like the latest Hero Creator for Neverwinter Nights 2 are still downloaded regularly from this site. Keep in mind that all downloads are provided without warranty or support of any kind.

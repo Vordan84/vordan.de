@@ -3,14 +3,14 @@
 # This widget displays all projects from `content/project/`.
 
 date = "2016-04-20T00:00:00"
-draft = false
+draft = true
 
-title = "Personal Projects"
+title = "Projects"
 subtitle = ""
 widget = "projects"
 
 # Order that this section will appear in.
-weight = 1
+weight = 50
 
 # View.
 # Customize how projects are displayed.
@@ -26,11 +26,11 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "A.M.O.C."
-  tag = ".AMOC"
+  name = "Deep Learning"
+  tag = ".deep-learning"
 
 [[filter]]
-  name = "Neverwinter Nights 2"
+  name = "Other"
   tag = ".demo"
 
 +++
