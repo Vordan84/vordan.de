@@ -131,6 +131,11 @@ defaultContentLanguageInSubdir = false
     link = "//linkedin.com/in/rené-schmidt-1427301b"
 
   [[params.social]]
+    icon = "xing"
+    icon_pack = "fa"
+    link = "//xing.com/profile/Rene_Schmidt56"
+
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/Vordan84"
