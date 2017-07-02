@@ -4,11 +4,11 @@
 # `selected = true` in their `+++` front matter.
 
 date = "2016-04-20T00:00:00"
-draft = true
+draft = false
 
-title = "Selected Publications"
-subtitle = ""
-widget = "publications_selected"
+title = "Current Project"
+subtitle = "Recent contributions"
+widget = "portfolio_project_selected"
 
 # Order that this section will appear in.
 weight = 10

@@ -1,5 +1,5 @@
-baseurl = "http://www.vordan.de"  # End your URL with a `/` trailing slash.
-title = "Vordan's Hideout"
+baseurl = "http://www.vordan.de/"  # End your URL with a `/` trailing slash.
+title = "René Schmidt - Game Programmer"
 copyright = "&copy; 2017 René Schmidt"
 theme = "academic"
 enableEmoji = true
@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = false
   organization = "Bigpoint GmbH"
   organization_url = "http://www.bigpoint.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "rene_schmidt_portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "me@vordan.de"
   address = ""
   office_hours = ""
@@ -82,24 +82,24 @@ defaultContentLanguageInSubdir = false
   # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
   custom_js  = []
 
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  # Project types.
+  #   Used to categorize projects.
+  #   The index of the project type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a project's frontmatter to categorize it.
   #   The language can be edited below.
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Finished project',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
+  project_types = [
+    'Commercial Game',  # 0
+    'Research Project', # 1
+    'Personal Project', # 2
+    'Student Project'   # 3
   ]
 
   # Social/Academic Networking
@@ -126,6 +126,11 @@ defaultContentLanguageInSubdir = false
     link = "mailto:me@vordan.de"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/rené-schmidt-1427301b"
+
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/Vordan84"
@@ -144,21 +149,16 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "About"
   url = "#about"
-  weight = 2
-
-#[[menu.main]]
-#  name = "Games"
-#  url = "#games"
-#  weight = 2
-
-[[menu.main]]
-  name = "Personal Projects"
-  url = "#projects"
   weight = 1
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Current Project"
+  url = "#recent_projects"
+  weight = 2
+
+[[menu.main]]
+  name = "Project Archive"
+  url = "#project_archive"
   weight = 3
 
 # Taxonomies.
@@ -166,6 +166,7 @@ defaultContentLanguageInSubdir = false
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
+  project_type = "project_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
