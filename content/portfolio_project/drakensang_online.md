@@ -36,3 +36,6 @@ caption = "Drakensang Online by Bigpoint"
 {{< youtube zT8fETnj4hU >}}
 
 
+&copy; Bigpoint &middot; All rights reserved.
+
+
