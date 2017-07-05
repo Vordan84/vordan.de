@@ -21,7 +21,7 @@ weight = 2
 
 # Hi!
 
-My name is René Schmidt and I write code - mainly C++.
+My name is René Schmidt and I write code (most of the time C++).
 
 I work for [Bigpoint](http://www.bigpoint.com) in Berlin on [Drakensang Online](http://www.drakensang.com) as a Senior Developer and I focus on gameplay programming, especially combat and AI, in a client-server-environment.
 
