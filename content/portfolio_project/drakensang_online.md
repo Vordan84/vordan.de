@@ -2,7 +2,7 @@
 summary = "A free-to-play MMO ARPG developed by Bigpoint in Berlin. Choose from 4 character classes and fight hordes of monsters or combat other players in 4 different match types."
 summary_short = "A free-to-play MMO ARPG"
 role = "Senior Developer"
-timeframe = "2010 - Present"
+timeframe = "2010 - 2018"
 release_date = "August 2011"
 date = "2011-08-01"
 image_preview = ""
@@ -10,7 +10,7 @@ math = false
 project_types = ["0"]
 platforms = "Windows & macOS"
 platforms_short = "Windows & macOS"
-selected = true
+archived = true
 title = "Drakensang Online"
 url_video = "https://www.youtube.com/watch?v=zT8fETnj4hU"
 

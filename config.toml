@@ -1,6 +1,6 @@
 baseurl = "http://www.vordan.de/"  # End your URL with a `/` trailing slash.
 title = "René Schmidt - Game Programmer"
-copyright = "&copy; 2017 René Schmidt"
+copyright = "&copy; 2018 René Schmidt"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -20,9 +20,9 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "René Schmidt"
-  role = "Senior Developer"
-  organization = "Bigpoint GmbH"
-  organization_url = "http://www.bigpoint.com"
+  role = "Senior Programmer"
+  organization = "Ubisoft Berlin"
+  organization_url = "https://www.ubisoft.com/en-US/studio/berlin.aspx"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "rene_schmidt_portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "me@vordan.de"
@@ -128,7 +128,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "//linkedin.com/in/rené-schmidt-1427301b"
+    link = "//linkedin.com/in/rene-schmidt-game-prog"
 
   [[params.social]]
     icon = "xing"
@@ -151,20 +151,20 @@ defaultContentLanguageInSubdir = false
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[menu.main]]
-  name = "About"
-  url = "#about"
-  weight = 1
+#[[menu.main]]
+#  name = "About"
+#  url = "#about"
+#  weight = 1
 
-[[menu.main]]
-  name = "Current Project"
-  url = "#recent_projects"
-  weight = 2
+#[[menu.main]]
+#  name = "Current Project"
+#  url = "#recent_projects"
+#  weight = 2
 
 [[menu.main]]
   name = "Project Archive"
   url = "#project_archive"
-  weight = 3
+  weight = 1
 
 # Taxonomies.
 [taxonomies]

@@ -1,8 +1,8 @@
 +++
 # About/Biography widget.
 
-date = "2017-06-28T18:00:00"
-draft = false
+date = "2018-04-15T18:00:00"
+draft = true
 
 widget = "about"
 
@@ -23,7 +23,7 @@ weight = 2
 
 My name is René Schmidt and I write code (most of the time C++).
 
-I work for [Bigpoint](http://www.bigpoint.com) in Berlin on [Drakensang Online](http://www.drakensang.com) as a Senior Developer and I focus on gameplay programming, especially combat and AI, in a client-server-environment.
+I worked for [Bigpoint](http://www.bigpoint.com) in Berlin on [Drakensang Online](http://www.drakensang.com) as a Senior Developer and I focused on gameplay programming, especially combat and AI, in a client-server-environment.
 
 Before that I contributed code to several released and unreleased [PC, Wii and NDS projects](http://www.mobygames.com/developer/sheet/view/developerId,241905/) at [Radon Labs](http://en.wikipedia.org/wiki/Radon_Labs).
 
